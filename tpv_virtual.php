@@ -25,7 +25,11 @@ try{
     //Key de ejemplo
     $key = 'sq7HjrUOBfKmC576ILgskD5srU870gJ7';
     $url_tienda = 'http://pruebas.zentinet.com';
+<<<<<<< HEAD
     $nombre_comercio = 'Mi tienda';
+=======
+    $nombre_comercio = 'Montañas del Norte';
+>>>>>>> f709437e670d60ab143fc94d6cd1a22cb68a4fec
 
     $redsys = new Sermepa\Tpv\Tpv();
     $redsys->setAmount($importe);
@@ -39,7 +43,11 @@ try{
     $redsys->setUrlKo($url_tienda.'/ko.php'); //Url KO
     $redsys->setVersion('HMAC_SHA256_V1');
     $redsys->setTradeName($nombre_comercio);
+<<<<<<< HEAD
 //    $redsys->setTitular('Perico los palotes');
+=======
+//    $redsys->setTitular('Pedro Risco');
+>>>>>>> f709437e670d60ab143fc94d6cd1a22cb68a4fec
     $redsys->setProductDescription($descripcion);
     $redsys->setEnviroment('test'); //Entorno test
 
