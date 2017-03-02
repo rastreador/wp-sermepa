@@ -16,4 +16,5 @@ Pendiente crear una página de configuración del plugin donde indicar:
 * URL OK
 * URL No OK
 
+Probado con WordPress 4.7.2 y anteriores
 
